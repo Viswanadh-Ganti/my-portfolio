@@ -10,6 +10,41 @@
   gap: 32px;
 }
 
+.page-content > section:not(.resume-section) {
+  animation: section-rise 0.7s both;
+}
+
+.page-content > section:nth-child(2) {
+  animation-delay: 0.08s;
+}
+
+.page-content > section:nth-child(3) {
+  animation-delay: 0.16s;
+}
+
+.page-content > section:nth-child(4) {
+  animation-delay: 0.24s;
+}
+
+.page-content > section:nth-child(5) {
+  animation-delay: 0.32s;
+}
+
+.page-content > section:nth-child(6) {
+  animation-delay: 0.4s;
+}
+
+@keyframes section-rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -30,6 +65,7 @@
 
 .brand {
   color: #f8fafc;
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -51,6 +87,19 @@
 }
 
 .nav-links a:hover {
+  color: #f8fafc;
+}
+
+.nav-links button {
+  border: 0;
+  padding: 0;
+  color: #cbd5e1;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.nav-links button:hover {
   color: #f8fafc;
 }
 
@@ -91,10 +140,11 @@
 }
 
 .hero-copy h1 {
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
   margin: 0;
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-size: 4.2rem;
   line-height: 1.05;
-  letter-spacing: -0.06em;
+  letter-spacing: 0;
   color: #f8fafc;
 }
 
@@ -122,7 +172,9 @@
   border-radius: 999px;
   text-decoration: none;
   font-weight: 700;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  font: inherit;
+  cursor: pointer;
 }
 
 .primary-btn {
@@ -139,12 +191,27 @@
 
 .primary-btn:hover,
 .secondary-btn:hover {
-  transform: translateY(-1px);
+  transform: translateY(-3px);
+}
+
+.primary-btn:hover {
+  box-shadow: 0 14px 34px rgba(56, 189, 248, 0.42);
 }
 
 .hero-panel {
   display: flex;
   justify-content: center;
+  animation: profile-float 5s ease-in-out 0.8s infinite;
+}
+
+@keyframes profile-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
 }
 
 .profile-card {
@@ -219,8 +286,10 @@
 }
 
 .section-header h2 {
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
   margin: 0;
-  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-size: 2.35rem;
+  letter-spacing: 0;
   color: #f8fafc;
 }
 
@@ -261,6 +330,7 @@
 }
 
 .skill-card h3 {
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
   margin: 0 0 14px;
   color: #f8fafc;
   font-size: 1.1rem;
@@ -307,6 +377,7 @@
 }
 
 .timeline-item h3 {
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
   margin: 0;
   color: #f8fafc;
   font-size: 1.12rem;
@@ -346,6 +417,7 @@
 }
 
 .project-card h3 {
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
   margin: 0 0 10px;
   color: #f8fafc;
   font-size: 1.1rem;
@@ -408,6 +480,161 @@
   font-size: 1rem;
 }
 
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.contact-links a:hover {
+  color: #7dd3fc;
+}
+
+.skill-card,
+.timeline-item,
+.project-card,
+.contact-item {
+  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.skill-card:hover,
+.timeline-item:hover,
+.project-card:hover,
+.contact-item:hover {
+  transform: translateY(-4px);
+  border-color: rgba(125, 211, 252, 0.38);
+  background: rgba(15, 23, 42, 0.62);
+}
+
+.resume-section {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+
+  :root {
+    color: #172033;
+    background: #fff;
+  }
+
+  body {
+    min-width: 0;
+    background: #fff;
+  }
+
+  .app-shell {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-header,
+  .page-content > section:not(.resume-section) {
+    display: none;
+  }
+
+  .page-content {
+    display: block;
+  }
+
+  .resume-section {
+    display: block;
+    color: #172033;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 10.2pt;
+    line-height: 1.4;
+  }
+
+  .resume-header {
+    border-bottom: 2px solid #172033;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .resume-header h1 {
+    margin: 0;
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  .resume-header p {
+    margin: 3px 0 0;
+  }
+
+  .resume-header a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .resume-title {
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    font-size: 11pt;
+    font-weight: 700;
+  }
+
+  .resume-content {
+    display: block;
+    max-width: 100%;
+  }
+
+  .resume-block {
+    margin-bottom: 13px;
+  }
+
+  .resume-block h2 {
+    border-bottom: 1px solid #7c8798;
+    color: #172033;
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    font-size: 11pt;
+    letter-spacing: 0.04em;
+    margin: 0 0 6px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+  }
+
+  .resume-block p {
+    margin: 0 0 5px;
+  }
+
+  .resume-job {
+    break-inside: avoid;
+    margin-bottom: 10px;
+  }
+
+  .resume-job-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .resume-job h3 {
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    font-size: 10pt;
+    margin: 0;
+  }
+
+  .resume-job-heading span {
+    flex-shrink: 0;
+    font-size: 9pt;
+  }
+
+  .resume-job ul {
+    margin: 3px 0 0;
+    padding-left: 17px;
+  }
+
+  .resume-job li {
+    margin-bottom: 2px;
+  }
+}
+
 @media (max-width: 768px) {
   .app-shell {
     width: min(100% - 20px, 1200px);
@@ -429,6 +656,10 @@
     padding: 26px 18px;
   }
 
+  .hero-copy h1 {
+    font-size: 2.75rem;
+  }
+
   .about-section,
   .skills-section,
   .experience-section,
@@ -441,5 +672,19 @@
   .section-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

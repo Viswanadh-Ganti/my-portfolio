@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
 :root {
-  font-family: Inter, 'Segoe UI', sans-serif;
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #e2e8f0;
@@ -25,6 +27,7 @@ body {
   background:
     radial-gradient(circle at top, rgba(56, 189, 248, 0.12), transparent 30%),
     linear-gradient(180deg, #020817 0%, #0f172a 100%);
+  overflow-x: hidden;
 }
 
 img {

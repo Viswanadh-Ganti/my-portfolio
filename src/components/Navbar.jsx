@@ -20,6 +20,12 @@ export default function Navbar() {
               {item.label}
             </a>
           ))}
+          <a href="https://www.linkedin.com/in/viswanadh-ganti/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <button type="button" className="resume-nav-link" onClick={() => window.print()}>
+            Print Resume
+          </button>
         </div>
       </nav>
     </header>

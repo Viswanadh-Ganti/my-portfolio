@@ -1,24 +1,21 @@
 const projects = [
   {
-    title: 'Enterprise Dashboard',
+    title: 'MREF / TRIRIGA Enterprise Solutions',
     description:
-      'A business operations dashboard built with Java and React to centralize reporting, analytics, and workflow monitoring for internal teams.',
-    tech: ['React', 'Spring Boot', 'MySQL'],
-    link: '#',
+      'Enterprise real-estate and facilities workflows supported through Java services, REST integrations, and React interfaces at IBM.',
+    tech: ['Java', 'Spring Boot', 'React'],
   },
   {
-    title: 'Inventory Management System',
+    title: 'FedEx Integrated Sortation System',
     description:
-      'A full-stack inventory platform designed to streamline stock tracking, supplier management, and automated purchase workflows.',
-    tech: ['Java', 'REST APIs', 'PostgreSQL'],
-    link: '#',
+      'Backend services and business workflows for a logistics platform, with a focus on reliable APIs, data processing, and production support at Wipro.',
+    tech: ['Java', 'Spring', 'REST APIs'],
   },
   {
-    title: 'Customer Portal',
+    title: 'Online Recruitment System',
     description:
-      'A customer-facing portal with secure authentication, role-based access, and responsive interfaces for service requests and account tracking.',
-    tech: ['React', 'Spring Security', 'JWT'],
-    link: '#',
+      'A web application contributed to during my internship at Hiferk Technologies, providing early hands-on experience with full stack application development.',
+    tech: ['Java', 'Web Development', 'SQL'],
   },
 ]
 
@@ -40,9 +37,6 @@ export default function Projects() {
                 <span key={item}>{item}</span>
               ))}
             </div>
-            <a href={project.link} className="project-link">
-              Learn more →
-            </a>
           </article>
         ))}
       </div>

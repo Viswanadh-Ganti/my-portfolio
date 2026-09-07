@@ -16,12 +16,18 @@ export default function Hero() {
           <a href="#contact" className="secondary-btn">
             Contact Me
           </a>
+          <button type="button" className="secondary-btn print-btn" onClick={() => window.print()}>
+            Print / Save Resume
+          </button>
         </div>
       </div>
 
       <div className="hero-panel" aria-label="Profile card">
         <div className="profile-card">
-          <img className="profile-image" src="/vswanadh.jpeg" alt="Viswanadh Ganti" />
+            <picture>
+              <source srcSet="/vswanadh.webp" type="image/webp" />
+              <img className="profile-image" src="/vswanadh.jpeg" alt="Viswanadh Ganti" />
+            </picture>
         </div>
       </div>
     </section>

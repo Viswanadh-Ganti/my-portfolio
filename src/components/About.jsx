@@ -6,11 +6,11 @@ export default function About() {
         <span>Profile</span>
       </div>
       <p>
-        Hello, I’m Viswanadh Ganti, a Full Stack Java Developer with 8 years of experience
-        creating enterprise-grade web applications and scalable backend systems. My work
-        spans Java, Spring Boot, REST APIs, database design, and responsive front-end
-        development with React. I enjoy solving complex business problems with clean code,
-        thoughtful architecture, and a user-first mindset.
+        Hello, I’m Viswanadh Ganti, a Full Stack Developer with 8 years of experience building
+        enterprise Java systems. I have worked on IBM’s MREF facilities-management platform
+        and FedEx’s Integrated Sortation System, with hands-on experience across Spring Boot,
+        Hibernate, SQL, React.js, and containerized deployments on OpenShift and AWS. I enjoy
+        owning services end-to-end, from API design through production deployment.
       </p>
     </section>
   )

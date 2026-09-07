@@ -1,24 +1,38 @@
 const experience = [
   {
-    role: 'Senior Full Stack Java Developer',
-    company: 'Leading Enterprise Solutions',
-    period: '2022 — Present',
+    role: 'Back End Developer',
+    company: 'IBM',
+    period: 'Nov 2023 — Present',
     summary:
-      'Design and develop scalable web applications, integrate backend services, improve system performance, and collaborate with cross-functional teams to deliver client-focused solutions.',
+      'Develop and maintain Java backend services for IBM MREF, formerly TRIRIGA, a facilities, infrastructure, and asset-management platform. Build Spring Boot and Hibernate services, resolve production issues, and support containerized deployments on OpenShift and AWS.',
   },
   {
-    role: 'Java Developer',
-    company: 'Product Engineering Team',
-    period: '2019 — 2022',
+    role: 'Technical Lead',
+    company: 'Wipro Limited',
+    period: 'Jul 2023 — Oct 2023',
     summary:
-      'Built Java-based services, optimized APIs, handled SQL-based data flows, and contributed to front-end enhancements using modern React interfaces.',
+      'Led technical delivery for a Java engineering team, coordinating design decisions and code quality standards across the project.',
   },
   {
-    role: 'Software Engineer',
-    company: 'Digital Platform Group',
-    period: '2017 — 2019',
+    role: 'Senior Software Engineer',
+    company: 'Wipro Technologies',
+    period: 'Aug 2021 — Aug 2023',
     summary:
-      'Worked on feature development, bug fixes, and application maintenance with a strong focus on reliability, code quality, and user experience.',
+      'Delivered backend Java features and enhancements as a senior contributor, mentored junior engineers, and drove code review standards while partnering with architects and product stakeholders.',
+  },
+  {
+    role: 'Project Engineer',
+    company: 'Wipro Limited',
+    period: 'Nov 2018 — Aug 2021',
+    summary:
+      'Built and maintained modules for the FedEx Integrated Sortation System, an automated package-sorting platform across FedEx Ground facilities. Developed production code-upgrade patches using multithreading, JDBC, and SQL query optimization.',
+  },
+  {
+    role: 'Intern',
+    company: 'Hiferk Technologies Pvt. Ltd.',
+    period: 'Dec 2017 — Mar 2018',
+    summary:
+      'Contributed to an Online Recruitment System web application and gained early full stack web development experience.',
   },
 ]
 

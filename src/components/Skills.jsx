@@ -1,15 +1,15 @@
 const skillGroups = [
   {
-    title: 'Frontend',
-    items: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Responsive UI'],
+    title: 'Languages & Frameworks',
+    items: ['Java', 'Spring', 'Spring Boot', 'Hibernate', 'React.js', 'JavaScript'],
   },
   {
-    title: 'Backend',
-    items: ['Java', 'Spring Boot', 'REST APIs', 'Microservices', 'Hibernate'],
+    title: 'Cloud & DevOps',
+    items: ['OpenShift', 'Docker', 'Podman', 'AWS', 'CI/CD', 'Containerization'],
   },
   {
-    title: 'Database & Tools',
-    items: ['MySQL', 'PostgreSQL', 'Git', 'Docker', 'JUnit'],
+    title: 'Data & Practices',
+    items: ['SQL', 'Oracle Database', 'JDBC', 'Multithreading', 'TDD', 'Code Review'],
   },
 ]
 

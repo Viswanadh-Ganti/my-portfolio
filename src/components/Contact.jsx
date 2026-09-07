@@ -19,6 +19,17 @@ export default function Contact() {
           <label>Location</label>
           <span>Hyderabad, India</span>
         </div>
+        <div className="contact-item">
+          <label>Profiles</label>
+          <div className="contact-links">
+            <a href="https://www.linkedin.com/in/viswanadh-ganti/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a href="https://github.com/ViswanadhGanti" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   )
