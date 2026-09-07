@@ -25,7 +25,7 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/viswanadh-ganti/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
-            <a href="https://github.com/ViswanadhGanti" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Viswanadh-Ganti" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </div>
