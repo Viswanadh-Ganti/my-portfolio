@@ -17,7 +17,7 @@ export default function Hero() {
             Contact Me
           </a>
           <button type="button" className="secondary-btn print-btn" onClick={() => window.print()}>
-            Print / Save Resume
+            Print / Save ATS Resume
           </button>
         </div>
       </div>

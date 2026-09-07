@@ -24,7 +24,7 @@ export default function Navbar() {
             LinkedIn
           </a>
           <button type="button" className="resume-nav-link" onClick={() => window.print()}>
-            Print Resume
+            Print ATS Resume
           </button>
         </div>
       </nav>
