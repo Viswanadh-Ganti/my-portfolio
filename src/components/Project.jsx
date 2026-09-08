@@ -1,21 +1,21 @@
 const projects = [
   {
-    title: 'MREF / TRIRIGA Enterprise Solutions',
+    title: 'IBM MREF / TRIRIGA',
     description:
-      'Enterprise real-estate and facilities workflows supported through Java services, REST integrations, and React interfaces at IBM.',
-    tech: ['Java', 'Spring Boot', 'React'],
+      'Java backend services for enterprise facilities, infrastructure, and asset-management workflows. Contributions span feature delivery, production troubleshooting, and container-ready deployments.',
+    tech: ['Java', 'Spring Boot', 'Hibernate', 'OpenShift'],
   },
   {
     title: 'FedEx Integrated Sortation System',
     description:
-      'Backend services and business workflows for a logistics platform, with a focus on reliable APIs, data processing, and production support at Wipro.',
-    tech: ['Java', 'Spring', 'REST APIs'],
+      'Modules and upgrade patches for an automated package-sorting platform used across FedEx Ground facilities, with emphasis on production reliability and throughput.',
+    tech: ['Java', 'JDBC', 'SQL', 'Multithreading'],
   },
   {
-    title: 'Online Recruitment System',
+    title: 'Early full stack work',
     description:
-      'A web application contributed to during my internship at Hiferk Technologies, providing early hands-on experience with full stack application development.',
-    tech: ['Java', 'Web Development', 'SQL'],
+      "Contributed to an Online Recruitment System at Hiferk Technologies - an early opportunity to work across a web application's development lifecycle.",
+    tech: ['Java', 'JavaScript', 'SQL'],
   },
 ]
 
@@ -23,8 +23,8 @@ export default function Projects() {
   return (
     <section className="projects-section" id="projects">
       <div className="section-header">
-        <h2>Projects</h2>
-        <span>Work</span>
+        <h2>Selected enterprise work</h2>
+        <span>Experience highlights</span>
       </div>
 
       <div className="projects-grid">

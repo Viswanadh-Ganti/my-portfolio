@@ -41,7 +41,7 @@ export default function Experience() {
     <section className="experience-section" id="experience">
       <div className="section-header">
         <h2>Experience</h2>
-        <span>Career</span>
+        <span>2017 — today</span>
       </div>
 
       <div className="timeline">

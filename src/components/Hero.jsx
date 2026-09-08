@@ -2,24 +2,25 @@ export default function Hero() {
   return (
     <section className="hero-section" id="home">
       <div className="hero-copy">
-        <p className="eyebrow">Full Stack Java Developer</p>
-        <h1>Building software that powers real business growth.</h1>
+        <p className="eyebrow">Java engineer · Hyderabad, India</p>
+        <h1>Enterprise software, built to hold up.</h1>
         <p>
-          I’m Viswanadh Ganti, a Java and React developer focused on creating reliable,
-          scalable web applications that blend clean architecture with a polished user
-          experience.
+          I&apos;m Viswanadh Ganti, a full stack Java developer with 8 years of experience
+          building the services, data flows, and interfaces behind critical enterprise systems.
         </p>
         <div className="button-row">
-          <a href="#projects" className="primary-btn">
-            View Projects
+          <a href="#experience" className="primary-btn">
+            Explore experience
           </a>
           <a href="#contact" className="secondary-btn">
-            Contact Me
+            Start a conversation
           </a>
-          <button type="button" className="secondary-btn print-btn" onClick={() => window.print()}>
-            Print / Save ATS Resume
-          </button>
         </div>
+        <dl className="hero-facts" aria-label="Professional highlights">
+          <div><dt>8</dt><dd>years in Java engineering</dd></div>
+          <div><dt>IBM</dt><dd>MREF / TRIRIGA platform</dd></div>
+          <div><dt>FedEx</dt><dd>high-throughput logistics systems</dd></div>
+        </dl>
       </div>
 
       <div className="hero-panel" aria-label="Profile card">
@@ -29,6 +30,7 @@ export default function Hero() {
               <img className="profile-image" src="/vswanadh.jpeg" alt="Viswanadh Ganti" />
             </picture>
         </div>
+        <p className="profile-caption">Currently building backend services at IBM.</p>
       </div>
     </section>
   )

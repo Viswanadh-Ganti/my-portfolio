@@ -6,11 +6,11 @@ export default function About() {
         <span>Profile</span>
       </div>
       <p>
-        Hello, I’m Viswanadh Ganti, a Full Stack Developer with 8 years of experience building
-        enterprise Java systems. I have worked on IBM’s MREF facilities-management platform
-        and FedEx’s Integrated Sortation System, with hands-on experience across Spring Boot,
-        Hibernate, SQL, React.js, and containerized deployments on OpenShift and AWS. I enjoy
-        owning services end-to-end, from API design through production deployment.
+        I work best where reliability is a product feature. My experience spans IBM&apos;s MREF
+        (formerly TRIRIGA) facilities platform and FedEx&apos;s Integrated Sortation System: large,
+        operationally important environments where thoughtful Java services, clear data models,
+        and careful production support matter. I bring that backend depth together with React
+        and delivery experience, so I can contribute from API design through deployment.
       </p>
     </section>
   )
