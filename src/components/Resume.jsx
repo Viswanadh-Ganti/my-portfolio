@@ -100,6 +100,11 @@ export default function Resume() {
         </section>
 
         <section className="resume-block">
+          <h2>Awards & Recognition</h2>
+          <p><strong>Manager Appreciation, Thanks@IBM</strong> - Recognized by Niti Dewan in September 2026 for resolving skill cases, backporting fixes, and mentoring team members.</p>
+        </section>
+
+        <section className="resume-block">
           <h2>Technical Writing</h2>
           <p>Authored a LinkedIn technical article on IBM MREF Date/DateTime configuration, including an accompanying decision guide graphic for practitioners.</p>
         </section>
