@@ -18,10 +18,10 @@ const projects = [
     tech: ['Java', 'JDBC', 'SQL', 'Multithreading'],
   },
   {
-    title: 'Hayagreev Medha Labs',
+    title: 'Hayagreev Medha Labs (In Progress)',
     description:
-      'Founded and operate an independent digital services and learning studio for small businesses and independent learners, offering websites, website care, practical automation, project support, and guided technical learning.',
-    tech: ['Digital Services', 'Automation', 'Web Platforms', 'Technical Learning'],
+      'This brand is currently in progress and will be ready soon. It is being shaped as a digital services and learning studio for small businesses and independent learners, with future offerings in websites, automation, project support, and guided technical learning.',
+    tech: ['Brand In Progress', 'Digital Services', 'Automation', 'Technical Learning'],
     url: 'https://hayagreev-medha-labs.vercel.app/',
   },
 ]
