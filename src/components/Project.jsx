@@ -17,13 +17,13 @@ const projects = [
       'Worked with the development team to build and maintain modules for a high-throughput package-sorting platform, applying multithreading, JDBC, and SQL optimization to production-critical code-upgrade patches and reliability fixes.',
     tech: ['Java', 'JDBC', 'SQL', 'Multithreading'],
   },
-  {
-    title: 'Hayagreev Medha Labs (In Progress)',
-    description:
-      'This brand is currently in progress and will be ready soon. It is being shaped as a digital services and learning studio for small businesses and independent learners, with future offerings in websites, automation, project support, and guided technical learning.',
-    tech: ['Brand In Progress', 'Digital Services', 'Automation', 'Technical Learning'],
-    url: 'https://hayagreev-medha-labs.vercel.app/',
-  },
+  // {
+  //   title: 'Hayagreev Medha Labs (In Progress)',
+  //   description:
+  //     'This brand is currently in progress and will be ready soon. It is being shaped as a digital services and learning studio for small businesses and independent learners, with future offerings in websites, automation, project support, and guided technical learning.',
+  //   tech: ['Brand In Progress', 'Digital Services', 'Automation', 'Technical Learning'],
+  //   url: 'https://hayagreev-medha-labs.vercel.app/',
+  // },
 ]
 
 export default function Projects() {
