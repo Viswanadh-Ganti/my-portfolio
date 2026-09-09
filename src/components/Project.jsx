@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'IBM MREF / TRIRIGA',
     description:
-      'Contributed to enterprise backend services for a large facilities and real-estate platform as part of the development team, covering feature development, security hardening, defect remediation, and deployment support in OpenShift and AWS environments.',
+      'Worked with the development team on enterprise backend services for a large facilities and real-estate platform, covering feature development, security hardening, defect remediation, and deployment support in OpenShift and AWS environments.',
     tech: ['Java', 'Spring Boot', 'Hibernate', 'OpenShift', 'AWS'],
   },
   {
@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'FedEx Integrated Sortation System',
     description:
-      'Contributed to building and maintaining modules for a high-throughput package-sorting platform, applying multithreading, JDBC, and SQL optimization to production-critical code-upgrade patches and reliability fixes.',
+      'Worked with the development team to build and maintain modules for a high-throughput package-sorting platform, applying multithreading, JDBC, and SQL optimization to production-critical code-upgrade patches and reliability fixes.',
     tech: ['Java', 'JDBC', 'SQL', 'Multithreading'],
   },
   {

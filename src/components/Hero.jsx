@@ -5,10 +5,10 @@ export default function Hero() {
         <p className="eyebrow">Java engineer · Hyderabad, Telangana, India</p>
         <h1>Enterprise software, built to hold up.</h1>
         <p>
-          I&apos;m Viswanadh Ganti, a Java backend engineer and individual contributor focused on
-          secure, scalable enterprise systems. With 8 years of experience across IBM&apos;s MREF
-          platform, logistics systems, and collaborative Java engineering teams, I contribute to
-          production-ready services that balance reliability, performance, and maintainability.
+          I&apos;m Viswanadh Ganti, a Java backend engineer focused on secure, scalable enterprise
+          systems. With 8 years of experience across IBM&apos;s MREF platform, logistics systems, and
+          collaborative Java engineering teams, I work on production-ready services that balance
+          reliability, performance, and maintainability.
         </p>
         <div className="button-row">
           <a href="#experience" className="primary-btn">
