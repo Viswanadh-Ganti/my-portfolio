@@ -70,5 +70,5 @@ The output is generated in the `dist/` directory and can be deployed to any stat
 
 ## Contact
 
-- Email: viswanadh.ganti@outlook.com
-- Location: Hyderabad, India
+- Email: viswanadh.ganti@gmail.com
+- Location: Hyderabad, Telangana, India

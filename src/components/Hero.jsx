@@ -2,11 +2,12 @@ export default function Hero() {
   return (
     <section className="hero-section" id="home">
       <div className="hero-copy">
-        <p className="eyebrow">Java engineer · Hyderabad, India</p>
+        <p className="eyebrow">Java engineer · Hyderabad, Telangana, India</p>
         <h1>Enterprise software, built to hold up.</h1>
         <p>
           I&apos;m Viswanadh Ganti, a full stack Java developer with 8 years of experience
-          building the services, data flows, and interfaces behind critical enterprise systems.
+          building enterprise systems, including 4+ years delivering backend services for IBM&apos;s
+          MREF platform and prior technical leadership in Java engineering teams.
         </p>
         <div className="button-row">
           <a href="#experience" className="primary-btn">

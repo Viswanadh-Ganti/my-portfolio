@@ -4,35 +4,35 @@ const experience = [
     company: 'IBM',
     period: 'Nov 2023 — Present',
     summary:
-      'Develop and maintain Java backend services for IBM MREF, formerly TRIRIGA, a facilities, infrastructure, and asset-management platform. Build Spring Boot and Hibernate services, resolve production issues, and support containerized deployments on OpenShift and AWS.',
+      'Contribute to IBM MREF (Maximo Real Estate and Facilities, formerly TRIRIGA), delivering feature development, security hardening, dependency upgrades, customer defect resolution, and cloud deployment across OpenShift and AWS pipelines.',
   },
   {
     role: 'Technical Lead',
     company: 'Wipro Limited',
     period: 'Jul 2023 — Oct 2023',
     summary:
-      'Led technical delivery for a Java engineering team, coordinating design decisions and code quality standards across the project.',
+      'Led technical delivery for a Java engineering team on the TRIRIGA platform programme, coordinating design decisions, code-quality standards, sprint planning, and accessibility compliance work for a major financial client.',
   },
   {
     role: 'Senior Software Engineer',
     company: 'Wipro Technologies',
     period: 'Aug 2021 — Aug 2023',
     summary:
-      'Delivered backend Java features and enhancements as a senior contributor, mentored junior engineers, and drove code review standards while partnering with architects and product stakeholders.',
+      'Delivered security and stability fixes across the TRIRIGA platform, resolved customer-reported APARs, and mentored junior engineers while partnering with architects and product stakeholders on scalable technical designs.',
   },
   {
     role: 'Project Engineer',
     company: 'Wipro Limited',
     period: 'Nov 2018 — Aug 2021',
     summary:
-      'Built and maintained modules for the FedEx Integrated Sortation System, an automated package-sorting platform across FedEx Ground facilities. Developed production code-upgrade patches using multithreading, JDBC, and SQL query optimization.',
+      'Built and maintained modules for the Integrated Sortation System (ISS), an automated package-sorting platform across FedEx Ground facilities, with strong work in multithreading, JDBC, and SQL query optimization.',
   },
   {
     role: 'Intern',
     company: 'Hiferk Technologies Pvt. Ltd.',
     period: 'Dec 2017 — Mar 2018',
     summary:
-      'Contributed to an Online Recruitment System web application and gained early full stack web development experience.',
+      'Contributed to development of an Online Recruitment System web application, gaining early full stack development experience across application workflows and user-facing features.',
   },
 ]
 

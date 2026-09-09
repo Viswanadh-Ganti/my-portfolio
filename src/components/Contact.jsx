@@ -17,7 +17,7 @@ export default function Contact() {
         </div>
         <div className="contact-item">
           <label>Location</label>
-          <span>Hyderabad, India</span>
+          <span>Hyderabad, Telangana, India</span>
         </div>
         <div className="contact-item">
           <label>Profiles</label>

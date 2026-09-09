@@ -1,15 +1,19 @@
 const skillGroups = [
   {
     title: 'Backend engineering',
-    items: ['Java', 'Spring', 'Spring Boot', 'Hibernate', 'REST APIs', 'Multithreading'],
+    items: ['Java', 'Spring', 'Spring Boot', 'Hibernate', 'REST APIs', 'Security remediation', 'Multithreading'],
   },
   {
     title: 'Data & integration',
-    items: ['SQL', 'Oracle Database', 'JDBC', 'Data modeling', 'Query optimization'],
+    items: ['SQL', 'Oracle Database', 'JDBC', 'Relational data modeling', 'Query optimization', 'Data localization'],
   },
   {
-    title: 'Full stack & delivery',
-    items: ['React.js', 'JavaScript', 'OpenShift', 'Docker', 'AWS', 'CI/CD', 'TDD'],
+    title: 'Cloud & delivery',
+    items: ['OpenShift', 'AWS', 'Docker', 'Podman', 'Jenkins', 'Git', 'Maven/Gradle', 'CI/CD'],
+  },
+  {
+    title: 'Practices & leadership',
+    items: ['Agile/Scrum', 'JIRA', 'Sprint planning', 'Code review standards', 'Mentoring', 'Unit testing', 'TDD'],
   },
 ]
 
