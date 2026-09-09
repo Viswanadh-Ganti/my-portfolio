@@ -2,20 +2,20 @@ const projects = [
   {
     title: 'IBM MREF / TRIRIGA',
     description:
-      'Java backend services for enterprise facilities, infrastructure, and asset-management workflows. Contributions span feature delivery, production troubleshooting, and container-ready deployments.',
-    tech: ['Java', 'Spring Boot', 'Hibernate', 'OpenShift'],
+      'Delivered enterprise backend services for a large facilities and real-estate platform, covering feature development, security hardening, defect remediation, and deployment support in OpenShift and AWS environments.',
+    tech: ['Java', 'Spring Boot', 'Hibernate', 'OpenShift', 'AWS'],
+  },
+  {
+    title: 'Security and platform hardening',
+    description:
+      'Remediated reflected XSS issues across high-traffic UI surfaces, upgraded vulnerable dependencies, improved static-analysis pipeline quality, and strengthened email and versioning behavior across customer-critical workflows.',
+    tech: ['OWASP', 'XSS', 'CI/CD', 'Git', 'Jenkins'],
   },
   {
     title: 'FedEx Integrated Sortation System',
     description:
-      'Modules and upgrade patches for an automated package-sorting platform used across FedEx Ground facilities, with emphasis on production reliability and throughput.',
+      'Built and maintained modules for a high-throughput package-sorting platform, applying multithreading, JDBC, and SQL optimization to production-critical code-upgrade patches and reliability fixes.',
     tech: ['Java', 'JDBC', 'SQL', 'Multithreading'],
-  },
-  {
-    title: 'Early full stack work',
-    description:
-      "Contributed to an Online Recruitment System at Hiferk Technologies - an early opportunity to work across a web application's development lifecycle.",
-    tech: ['Java', 'JavaScript', 'SQL'],
   },
 ]
 

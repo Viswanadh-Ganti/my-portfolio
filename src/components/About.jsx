@@ -6,17 +6,16 @@ export default function About() {
         <span>Profile</span>
       </div>
       <p>
-        I work best where reliability is a product feature. My experience spans IBM&apos;s MREF
-        (formerly TRIRIGA) facilities-management platform, large-scale logistics systems, and
-        enterprise applications where thoughtful Java services, secure API design, and careful
-        production support matter. I have delivered work across feature development, security
-        hardening, dependency upgrades, defect resolution, and cloud deployment on OpenShift and AWS.
+        I build enterprise Java systems where reliability, security, and maintainability matter as
+        much as functionality. My work spans IBM&apos;s MREF (formerly TRIRIGA) facilities-management
+        platform, FedEx logistics systems, and mission-critical applications that require thoughtful
+        backend design, production troubleshooting, and secure delivery under real operational pressure.
       </p>
       <p>
-        I have also led technical delivery and mentoring in Java engineering teams, contributed to
-        accessibility and security remediation work, and supported mission-critical service delivery
-        in Agile environments using Git, Jenkins, Maven/Gradle, and JIRA. My latest CV highlights
-        include the 2025 IBM watsonx Challenge and Generative AI: Introduction and Applications.
+        I have led feature development, dependency and security remediation, accessibility compliance,
+        defect resolution, and deployment work across OpenShift and AWS environments. I also mentor
+        engineers, drive code-quality standards, and help teams translate business requirements into
+        scalable, production-ready Java services with measurable impact.
       </p>
     </section>
   )
