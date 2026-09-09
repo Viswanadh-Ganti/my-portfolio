@@ -22,7 +22,7 @@ export default function Contact() {
         <div className="contact-item">
           <label>Profiles</label>
           <div className="contact-links">
-            <a href="https://www.linkedin.com/in/viswanadhganti/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/viswanadh-ganti/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
             <a href="https://github.com/Viswanadh-Ganti" target="_blank" rel="noreferrer">
