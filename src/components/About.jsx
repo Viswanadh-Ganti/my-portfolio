@@ -6,16 +6,18 @@ export default function About() {
         <span>Profile</span>
       </div>
       <p>
-        I build enterprise Java systems where reliability, security, and maintainability matter as
-        much as functionality. My work spans IBM&apos;s MREF (formerly TRIRIGA) facilities-management
-        platform, FedEx logistics systems, and mission-critical applications that require thoughtful
-        backend design, production troubleshooting, and secure delivery under real operational pressure.
+        I am a Java backend individual contributor who works with development teams to deliver
+        enterprise systems where reliability, security, and maintainability matter as much as
+        functionality. My work spans IBM&apos;s MREF (formerly TRIRIGA) facilities-management platform,
+        FedEx logistics systems, and mission-critical applications that require thoughtful backend
+        design, production troubleshooting, and secure delivery under real operational pressure.
       </p>
       <p>
-        I have led feature development, dependency and security remediation, accessibility compliance,
-        defect resolution, and deployment work across OpenShift and AWS environments. I also mentor
-        engineers, drive code-quality standards, and help teams translate business requirements into
-        scalable, production-ready Java services with measurable impact.
+        As one of the contributors on these teams, I have taken ownership of feature work, dependency
+        and security remediation, accessibility compliance, defect resolution, and deployment tasks
+        across OpenShift and AWS environments. I also mentor engineers, contribute to code-quality
+        standards, and help teams translate business requirements into scalable, production-ready
+        Java services with measurable impact.
       </p>
     </section>
   )

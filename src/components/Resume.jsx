@@ -5,8 +5,8 @@ const resumeExperience = [
     period: 'Nov 2023 - Present',
     bullets: [
       'Contribute to IBM MREF (Maximo Real Estate and Facilities, formerly TRIRIGA), an enterprise facilities and real-estate management platform deployed at large global organisations.',
-      'Delivered 340+ commits spanning feature development, security hardening, dependency management, and customer defect resolution across more than 50 work items since 2022.',
-      'Led end-to-end remediation of reflected XSS exposures across multiple high-traffic UI surfaces and configured a continuous static-analysis pipeline with custom sanitizer rules and per-pull-request scanning.',
+      'Contributed 340+ commits spanning feature development, security hardening, dependency management, and customer defect resolution across more than 50 work items since 2022 as part of the IBM MREF development team.',
+      'Owned implementation of reflected XSS remediation across multiple high-traffic UI surfaces and contributed to configuring a continuous static-analysis pipeline with custom sanitizer rules and per-pull-request scanning.',
       'Resolved critical third-party library vulnerabilities, optimized AES encryption throughput for large datasets, hardened email transport security, and delivered work within containerized OpenShift and AWS deployment pipelines using Git and Jenkins CI/CD.',
     ],
   },
@@ -34,8 +34,8 @@ const resumeExperience = [
     company: 'Wipro Limited',
     period: 'Nov 2018 - Aug 2021',
     bullets: [
-      'Built and maintained modules for the Integrated Sortation System (ISS), an automated package-sorting platform running across FedEx Ground facilities.',
-      'Developed and deployed code-upgrade patches for a high-throughput, mission-critical production system using Git and Maven, gaining hands-on depth in multithreading, JDBC, and SQL query optimization.',
+      'Contributed to building and maintaining modules for the Integrated Sortation System (ISS), an automated package-sorting platform running across FedEx Ground facilities.',
+      'Contributed code-upgrade patches for a high-throughput, mission-critical production system using Git and Maven, gaining hands-on depth in multithreading, JDBC, and SQL query optimization as part of the development team.',
     ],
   },
   {
@@ -60,12 +60,12 @@ export default function Resume() {
         <section className="resume-block">
           <h2>Professional Summary</h2>
           <p>
-            Full stack engineer with 8 years building enterprise Java systems, including 4+ years
-            delivering backend services for IBM&apos;s MREF (formerly TRIRIGA) facilities-management
-            platform, and prior experience leading a Java engineering team as Technical Lead at
-            Wipro. Strong foundation across Spring Boot, Hibernate, SQL/Oracle, React.js, and
-            containerized deployment on OpenShift/AWS, backed by hands-on delivery in Git,
-            Maven/Gradle, Jenkins CI/CD, and JIRA-driven Agile teams.
+            Full stack engineer and individual contributor with 8 years working on enterprise Java
+            systems, including 4+ years contributing backend services to IBM&apos;s MREF (formerly
+            TRIRIGA) facilities-management platform, and prior experience leading a Java engineering
+            team as Technical Lead at Wipro. Strong foundation across Spring Boot, Hibernate,
+            SQL/Oracle, React.js, and containerized deployment on OpenShift/AWS, backed by hands-on
+            delivery in Git, Maven/Gradle, Jenkins CI/CD, and JIRA-driven Agile teams.
           </p>
         </section>
 

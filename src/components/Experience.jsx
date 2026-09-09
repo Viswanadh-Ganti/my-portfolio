@@ -4,7 +4,7 @@ const experience = [
     company: 'IBM',
     period: 'Nov 2023 — Present',
     summary:
-      'Deliver enterprise backend services for IBM MREF, supporting feature development, security hardening, dependency upgrades, customer defect remediation, and deployment across OpenShift and AWS pipelines. Work spans 340+ commits and 50+ work items across a large, mission-critical platform.',
+      'Contribute as an individual developer on the IBM MREF team, supporting feature development, security hardening, dependency upgrades, customer defect remediation, and deployment across OpenShift and AWS pipelines. Work spans 340+ commits and 50+ work items across a large, mission-critical platform.',
   },
   {
     role: 'Technical Lead',
@@ -25,7 +25,7 @@ const experience = [
     company: 'Wipro Limited',
     period: 'Nov 2018 — Aug 2021',
     summary:
-      'Built and maintained modules for the FedEx Integrated Sortation System, a high-throughput logistics platform, using multithreading, JDBC, and SQL optimization to improve production reliability and performance.',
+      'Contributed to building and maintaining modules for the FedEx Integrated Sortation System, a high-throughput logistics platform, using multithreading, JDBC, and SQL optimization to improve production reliability and performance as part of the development team.',
   },
   {
     role: 'Intern',
