@@ -17,6 +17,13 @@ const projects = [
       'Built and maintained modules for a high-throughput package-sorting platform, applying multithreading, JDBC, and SQL optimization to production-critical code-upgrade patches and reliability fixes.',
     tech: ['Java', 'JDBC', 'SQL', 'Multithreading'],
   },
+  {
+    title: 'Hayagreev Medha Labs',
+    description:
+      'Founded and operate an independent digital services and learning studio for small businesses and independent learners, offering websites, website care, practical automation, project support, and guided technical learning.',
+    tech: ['Digital Services', 'Automation', 'Web Platforms', 'Technical Learning'],
+    url: 'https://hayagreev-medha-labs.vercel.app/',
+  },
 ]
 
 export default function Projects() {
@@ -30,7 +37,9 @@ export default function Projects() {
       <div className="projects-grid">
         {projects.map((project) => (
           <article className="project-card" key={project.title}>
-            <h3>{project.title}</h3>
+            <h3>
+              {project.url ? <a href={project.url} target="_blank" rel="noreferrer">{project.title}</a> : project.title}
+            </h3>
             <p>{project.description}</p>
             <div className="project-tech">
               {project.tech.map((item) => (
