@@ -101,7 +101,7 @@ export default function Resume() {
 
         <section className="resume-block">
           <h2>Awards & Recognition</h2>
-          <p><strong>Manager Appreciation, Thanks@IBM</strong> - Recognized by Niti Dewan in September 2026 for resolving skill cases, backporting fixes, and mentoring team members.</p>
+          <p><strong>Manager Appreciation</strong> - Recognized by Niti Dewan in September 2026 for resolving skill cases, backporting fixes, and mentoring team members.</p>
         </section>
 
         <section className="resume-block">

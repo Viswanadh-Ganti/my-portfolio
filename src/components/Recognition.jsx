@@ -29,6 +29,12 @@ const recognitions = [
       'I hold immense gratitude for the unwavering guidance and support you have provided since my induction into the team. Your patience and eagerness to explain each of my questions have shaped my understanding and fostered a sense of trust and respect. Your commitment to helping me grow has been inspiring.',
   },
   {
+    title: 'Manager Appreciation',
+    issuer: 'Niti Dewan',
+    detail:
+      'Congratulations, Viswanadh! I would like to recognize and appreciate Viswa for his valuable contributions to the team. He has consistently supported the resolution of skill cases, contributed to backporting fixes, and played an important role in mentoring other team members. His technical expertise, willingness to share knowledge, and collaborative approach have helped the team address issues more effectively and deliver work successfully. Thank you, Viswa, for your continued support and commitment. Your contributions are highly appreciated.',
+  },
+  {
     title: 'Project onboarding and collaboration',
     issuer: 'Sunilkumar Tomar',
     detail:
